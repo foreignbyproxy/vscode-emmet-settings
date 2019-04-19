@@ -1,0 +1,26 @@
+{
+	"html": {
+		"snippets": {
+			"php": "<?php ${1} ?>",
+			"if": "<?php if(${1}): ?>\n\t\n<?php endif; ?>",
+			"ifelse": "<?php if(${1}) : ?>\n \t${2}\n<?php else: ?>\n<?php endif; ?>",
+			"iei": "<?php if(${1}) : ?>\n\t${2}\n<?php elseif(): ?>\n<?php endif; ?>",
+			"foreach": "<?php foreach(${1:$variable} as ${2:$key} => ${3:$item}) : ?>\n<?php endforeach; ?>",
+			"agf": "get_field(${1});",
+			"atf": "the_field(${1});"
+		}
+	},
+	"css": {
+		"snippets": {
+			"lsn": "list-style: none",
+			"trbl": "top: 0; right: 0; bottom: 0; left: 0",
+			"mmax": "@media screen and (max-width: ${1}px) {\n\t${2}\n}",
+			"mmin": "@media screen and (min-width: ${1}px) {\n\t${2}\n}",
+			"psb": "&::before {\n\tcontent: \" \"\n}",
+			"psa": "&::after {\n\tcontent: \" \"\n}",
+			"pm00": "padding: ${1:0};\nmargin: ${1:0};",
+			"pxrem": "font-size: pxrem(${1});",
+			"wihi": "width: ${1};\nheight: ${1};"
+		}
+	}
+}
